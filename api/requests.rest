@@ -1,0 +1,18 @@
+GET http://localhost:3001/todos 
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+
+{
+    "text": "Order Manveer"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/6504b1d0876cc498aca05665
+###
+
+GET http://localhost:3001/todo/complete/6504b1987686135de0a396b5
